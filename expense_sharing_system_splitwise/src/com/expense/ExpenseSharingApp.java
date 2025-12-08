@@ -3,9 +3,6 @@ package com.expense;
 import com.expense.controller.CommandDispatcher;
 import com.expense.controller.commands.Command;
 import com.expense.controller.commands.ExitCommand;
-import com.expense.exceptions.InvalidSplitException;
-import com.expense.exceptions.UserNotFoundException;
-import com.expense.exceptions.DuplicateUserException;
 import com.expense.services.ExpenseService;
 import com.expense.services.LedgerService;
 
